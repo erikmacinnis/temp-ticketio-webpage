@@ -2,10 +2,10 @@
 FROM node:14.9
 
 # Set the working directory in the container
-WORKDIR /app
+WORKDIR /
 
 # Add `/app/node_modules/.bin` to $PATH
-ENV PATH /app/node_modules/.bin:$PATH
+ENV PATH /node_modules/.bin:$PATH
 
 # Copy package.json and package-lock.json to the working directory
 COPY package.json ./
