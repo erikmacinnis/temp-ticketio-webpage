@@ -1,0 +1,36 @@
+.coming-soon-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px;
+}
+
+.coming-soon-title {
+  font-size: clamp(10rem, 5vw, 10rem);
+  color: white; /* A vibrant color for the title */
+  margin-bottom: 20px; /* Space between the title and text */
+}
+
+.coming-soon-text {
+  font-size: 24px; /* Larger font size for the text */
+  color: white; /* Darker color for the text */
+  text-align: center; /* Center the text */
+  font-size: clamp(3rem, 1.5vw, 5rem);
+}
+ /* Optional: Add a subtle animation for the title */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+}
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.coming-soon-title {
+  animation: pulse 10s infinite; /* Animate the title */
+}
