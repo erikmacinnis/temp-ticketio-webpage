@@ -1,32 +1,48 @@
 footer {
-  background-color: #2884D8; /* Match the background color of your logo and app */
-  color: white; /* Set the default text color to white */
+  background-color: #2884D8;
+  color: white;
   display: flex;
-  justify-content: space-between; /* Align items to the left and right */
-  padding: 20px; /* Add some padding for better spacing */
-  align-items: center; /* Center items vertically */
-  margin-left: 70px;
-  margin-right: 70px;
-  margin-bottom: 50px;
-  margin-top: 100px;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 50px;
+  padding-top: 100px;
+ }
+ 
+@media (max-width: 576px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+  }
+}
+ 
+@media (min-width: 576px) {
+  footer {
+    flex-direction: row;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+  }
 }
 
 footer p {
-  margin: 0; /* Remove default margin */
-  color: white; /* Ensure text color is white */
+  text-align: center;
 }
 
 footer a {
-  color: white; /* Ensure link color is white */
-  text-decoration: none; /* Remove underline from links */
+  color: white;
+  text-decoration: none;
 }
 
-footer a:hover {
-  text-decoration: underline; /* Add underline on hover for better user experience */
-}
-
-img {
-  height: 40px; /* Adjust the height as needed */
-  width: auto; /* Maintain aspect ratio */
-  margin-right: 10px; /* Add some space to the right of the logo */
-}
+img { 
+    height: 40px; /* Reduce the logo size on smaller screens */
+    width: auto; /* Maintain aspect ratio */
+    padding-right: 5px; /* Adjust space to the right of the logo */
+    padding-bottom: 10px;
+} 

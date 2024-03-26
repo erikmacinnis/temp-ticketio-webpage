@@ -16,7 +16,7 @@
 .logo img {
     height: 70px; /* Adjust the height as needed */
     width: auto; /* Maintain aspect ratio */
-    margin-right: 10px; /* Add some space to the right of the logo */
+    padding-right: 10px; /* Add some space to the right of the logo */
 }
   
   /* NAVBAR MENU */
@@ -49,5 +49,5 @@
 }
 
 .dropdown li + li {
-  margin-top: 10px;
+  padding-top: 10px;
 }

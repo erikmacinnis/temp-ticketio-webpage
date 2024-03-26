@@ -7,16 +7,15 @@
 }
 
 .coming-soon-title {
-  font-size: clamp(10rem, 5vw, 10rem);
+  font-size: 14vw; /* Adjust the value as needed */
   color: white; /* A vibrant color for the title */
-  margin-bottom: 20px; /* Space between the title and text */
+  padding-bottom: 20px; /* Space between the title and text */
 }
 
 .coming-soon-text {
-  font-size: 24px; /* Larger font size for the text */
+  font-size: 5vw; /* Larger font size for the text */
   color: white; /* Darker color for the text */
   text-align: center; /* Center the text */
-  font-size: clamp(3rem, 1.5vw, 5rem);
 }
  /* Optional: Add a subtle animation for the title */
 @keyframes pulse {

@@ -7,7 +7,7 @@ const Footer = () => {
     <footer>
       <img src={ticketioLogo} alt='TicketIO'></img>
       <p>&copy; 2024 13213854 Canada Inc. All rights reserved.</p>
-      <p>Contact: <a href="mailto:your-email@example.com">erikmacinnis@ticketio.ca</a></p>
+      <p>Contact: <a href="mailto:erikmacinnis@ticketio.ca">erikmacinnis@ticketio.ca</a></p>
     </footer>
  );
 };
